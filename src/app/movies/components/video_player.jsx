@@ -47,7 +47,7 @@ export default function VIDEO_PLAYER({ id: id }) {
 				</button>
 				<button
 					onClick={() =>
-						make_player(`https://vidsrc.icu/embed/movie/${id}`)
+						make_player(`https://vidsrc.icu/embed/movie/${e}`)
 					}
 				>
 					Vidsrc.icu
