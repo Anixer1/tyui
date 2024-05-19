@@ -13,7 +13,7 @@ export const metadata = {
 		"Online service to watch kdramas and anime and movie for free..",
 	generator: "Next.js",
 	applicationName: "XerStream",
-	authors: [{ name: "zephex", url: "https://github.com/real-zephex" }],
+	authors: [{ name: "Xer", url: "https://github.com/real-zephex" }],
 	creator: "Xer",
 	keywords: ["Kdrama", "Anime", "Movie", "Watch Online"],
 	robots: {
