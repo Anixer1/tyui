@@ -7,7 +7,7 @@ export default function VIDEO_PLAYER({ id: id }) {
 	const [frame, setFrame] = useState(null);
 
 	useEffect(() => {
-		make_player(`https://vidsrc.icu/embed/movie/${id}`);
+		make_player(`https://player.autoembed.cc/embed/movie/${id}?server=2`);
 	}, []);
 
 	function make_player(url) {
