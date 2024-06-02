@@ -55,7 +55,7 @@ export default function VIDEO_PLAYER({ id: id }) {
 				<button
 					onClick={() =>
 						make_player(
-							`https://player.autoembed.cc/embed/movie/${id}`
+							`https://player.autoembed.cc/embed/movie/${id}?server=2`
 						)
 					}
 				>
